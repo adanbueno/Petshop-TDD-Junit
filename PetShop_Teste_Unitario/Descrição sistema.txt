@@ -1,0 +1,15 @@
+﻿O sistema é um Petshop que irá ter uma lista de serviços, uma lista de clientes e um caixa. Os serviços contém nome e um preço, 
+os clientes são compostos por nome, cpf, 
+assim como uma lista de pets e o telefone do cliente. Os pets contém nome, raça, e um cliente como dono e uma lista de serviços feita pelo pet.
+
+
+
+Quando o cliente fizer uma requisição de serviço ao petshop, ele irá pagar o preço do serviço na hora, fazendo com que o dinheiro do serviço já seja debitado no sistema.
+
+
+Quando o cadastro do pet é feito, ele é adicionado tanto ao banco de dados dos pets, como também é acrescentado na lista do dono. 
+Ao remover o pet do banco de dados, o petcontroller fica responsável por tirar o pet específico da lista do dono.
+
+
+Ao remover um cliente, o cliente controller removerá todos os pets ligados a ele.
+
