@@ -1,0 +1,309 @@
+{
+  "id": "3f3711d3-d6a7-4d49-8549-1618bc9baeea",
+  "version": "2.0",
+  "name": "projeto_adan",
+  "url": "https://www.blazedemo.com",
+  "tests": [{
+    "id": "d12420be-f8b9-48ed-bb1b-75a2cb58a225",
+    "name": "teste encontrar voos",
+    "commands": [{
+      "id": "0a7b3c54-67ed-4234-938d-6e175b5a8fc3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b278bfc-5290-418e-b2e0-b96f6f49fea4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2436266d-0160-43d5-b33d-522364a59313",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=.form-inline:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fa782f-a96b-4337-9f39-2d4f9045ae9f",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=Boston"
+    }, {
+      "id": "e10fb952-5ad0-44c3-abbb-00abfff2c08f",
+      "comment": "",
+      "command": "click",
+      "target": "name=toPort",
+      "targets": [
+        ["name=toPort", "name"],
+        ["css=.form-inline:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='toPort']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6ec45db-8a03-442d-b4df-0377516b9ca5",
+      "comment": "",
+      "command": "select",
+      "target": "name=toPort",
+      "targets": [],
+      "value": "label=Roma"
+    }, {
+      "id": "7f69b15f-5420-44e5-805d-f817377b60c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Encontrar voos']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd75d277-d47d-4482-8ce8-64f2bab68fed",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=tr:nth-child(2) .btn",
+      "targets": [
+        ["css=tr:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Escolha este voo'])[2]", "xpath:attributes"],
+        ["xpath=//tr[2]/td/font/font/input", "xpath:position"]
+      ],
+      "value": "35,13"
+    }, {
+      "id": "7ae9b3c8-046e-4e19-b7cb-e2f7d4694549",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=tr:nth-child(2) .btn",
+      "targets": [
+        ["css=tr:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Escolha este voo'])[2]", "xpath:attributes"],
+        ["xpath=//tr[2]/td/font/font/input", "xpath:position"]
+      ],
+      "value": "35,13"
+    }, {
+      "id": "42a32b24-a717-43ed-abba-8be7ef326bd2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=tr:nth-child(2) .btn",
+      "targets": [
+        ["css=tr:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Escolha este voo'])[2]", "xpath:attributes"],
+        ["xpath=//tr[2]/td/font/font/input", "xpath:position"]
+      ],
+      "value": "35,13"
+    }, {
+      "id": "6c3c825a-ad82-4284-90c5-f91f7c9c2a40",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn",
+      "targets": [
+        ["css=tr:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//input[@value='Escolha este voo'])[2]", "xpath:attributes"],
+        ["xpath=//tr[2]/td/font/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6988f7c3-0017-4371-9bf4-4fecc90698d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .btn",
+      "targets": [
+        ["css=tr:nth-child(3) .btn", "css:finder"],
+        ["xpath=(//input[@value='Escolha este voo'])[3]", "xpath:attributes"],
+        ["xpath=//tr[3]/td/font/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dad5765a-b5e4-47b7-bde5-49a342b91ecf",
+    "name": "criar conta",
+    "commands": [{
+      "id": "fa9a671a-70c9-48e8-ab02-9ab10b840ba3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d4a836e-74e2-40fd-9510-cec45913e2a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e12528f-daa1-4445-a1aa-e5d406299cb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand:nth-child(3) > font > font",
+      "targets": [
+        ["css=.brand:nth-child(3) > font > font", "css:finder"],
+        ["xpath=//a[3]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c76b17-6661-43e5-9453-d576480d413a",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) font > font",
+      "targets": [
+        ["css=li:nth-child(2) font > font", "css:finder"],
+        ["xpath=//div[@id='app-navbar-collapse']/ul[2]/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e8fb09-5578-41e9-b865-63da117a2e8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "teste"
+    }, {
+      "id": "6606c0b4-89fd-4c08-9edf-a4a014e3f648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-horizontal",
+      "targets": [
+        ["css=.form-horizontal", "css:finder"],
+        ["xpath=//form[@action='https://www.blazedemo.com/register']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f458f74-01a2-44b4-b2d4-7ae6a11155de",
+      "comment": "",
+      "command": "click",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83fa5116-0466-4113-a544-4f42fcbceb17",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "teste"
+    }, {
+      "id": "9a19b4a3-1395-4bc6-815b-33c416d3b55e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b823a936-a70c-4b31-ad08-cfae7540ca3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "taxameu3@gmail.com"
+    }, {
+      "id": "de50bde1-d94b-4836-889e-051b3b2c0922",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "e3cdde68-91a2-4336-b48d-bcb9ce87dc74",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-confirm",
+      "targets": [
+        ["id=password-confirm", "id"],
+        ["name=password_confirmation", "name"],
+        ["css=#password-confirm", "css:finder"],
+        ["xpath=//input[@id='password-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "e2956205-b387-4c7b-b370-1192322bc279",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > font > font",
+      "targets": [
+        ["css=.btn > font > font", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/form/div[6]/div/button/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54554863-c11a-4236-8c3d-f6dcd7658632",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.message > font > font",
+      "targets": [
+        ["css=.message > font > font", "css:finder"],
+        ["xpath=//div[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d18000c8-d36f-4e1e-8963-7d46adf7c5ee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.blazedemo.com/"],
+  "plugins": []
+}
